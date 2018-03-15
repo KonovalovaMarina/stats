@@ -39,7 +39,6 @@ def extract_years(stat):
     list_years = set()
     for i in stat:
         list_years.add(i[0])
-    # list_years = {i[0] for i in stat}
     return sorted(list_years)
 
 
